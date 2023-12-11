@@ -33,7 +33,17 @@
     </div>
 
     <script>
+        var username=document.getElementById("username").value;
+        var email=document.getElementById("email").value;
+        var password=document.getElementById("password").value;
 
+        document.getElementById("RegistrationForm").style.display='none';
+
+        document.getElementById("result").style.display='block';
+
+        document.getElementById("displayUsename").innerText=username;
+        document.getElementById("displayEmail").innerText=email;
+        document.getElementById("displayPassword").innerText=password;
     </script>
 </body>
 </html>
